@@ -1,17 +1,23 @@
 {
-  "name": "backend",
+  "name": "chai-backend",
   "version": "1.0.0",
+  "description": "Learn Backend",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }
